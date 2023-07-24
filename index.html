@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>FORM</h3>
+    <form>
+        <label for="fname">FIRST_NAME :</label>
+        <input type="text" id="fname" >
+        <br><br>
+        <label for="lname">LAST_NAME :</label>
+        <input type="text" id="lname" >
+        <br><br>
+        <label>PHONE_NO :</label>
+        <input type="number" >
+        <br><br>
+        <label for="email" required>EMAIL :</label>
+        <input type="email" id="email" >
+        <br><br>
+        <label for="pass">PASSWORD :</label>
+        <input type="password" id="pass" required>
+        <br><br>
+        <label>GENDER :</label>
+        <input type="radio"  name="gen">Male
+        <input type="radio" name="gen">Female
+        <br><br>
+        <label >NATIVE_LANGUAGE :</label>
+        <select >
+            <option>Tamil</option>
+            <option>English</option>
+            <option>Hindi</option>
+        </select>
+        <br><br>
+        <label>SELECT THE RANGE :</label>
+        <input type="range">
+        <br><br>
+        <label>FEEDBACK :</label>
+        <br>
+        <textarea  cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="file" multiple>
+        <br><br>
+        <input type="image" src="./certificate.png" alt="certificate" width="200px" height="200px">
+        <br><br>
+        <input type="checkbox" id="check">
+        <label for="check"> Yes...I want certificate</label>
+        <br><br>
+        <input type="reset" value="Reset all the input">
+        <input type="submit" value="SAVE">
+    </form>
+</body>
+</html>
